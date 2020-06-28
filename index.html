@@ -15,7 +15,7 @@
         <!-- Set the background colour of the document -->
         <style>
             body {
-              background: #000000;
+              background: #0;
               color:#cccccc;
               margin: 0px;
               padding: 0px;
@@ -35,11 +35,7 @@
             }
             div.gm4html5_div_class
             {
-              position: fixed;
-              top: 50%;
-              left: 50%;
-              margin-left: -512px;
-              margin-top: -384px;
+              margin: 0px;
               padding: 0px;
               border: 0px;
             }
@@ -77,13 +73,13 @@
     <body>
         <div class="gm4html5_div_class" id="gm4html5_div_id">
             <!-- Create the canvas element the game draws to -->
-            <canvas id="canvas" width="1024" height="768">
-               <p>Your browser doesn't support HTML5 canvas.</p>
+            <canvas id="canvas" width="1024" height="768"  style="position: absolute; top: 50%; left: 50%; bottom: -50%; right: -50%; transform: translate(-50%, -50%);" >
+                     <p>Your browser doesn't support HTML5 canvas.</p>
             </canvas>
         </div>
 
         <!-- Run the game code -->
-        <script type="text/javascript" src="html5game/toddler math.js?ISVAC=4513504"></script>
+        <script type="text/javascript" src="html5game/toddler math.js?TMSYB=1076412913"></script>
         <script>window.onload = GameMaker_Init;</script>
     </body>
 </html>
